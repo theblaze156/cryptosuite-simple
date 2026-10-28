@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cleartext allowed because the user's server has no TLS yet. Switch to https and set false when possible. -->
+<network-security-config><base-config cleartextTrafficPermitted="true"/></network-security-config>

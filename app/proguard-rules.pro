@@ -1,0 +1,3 @@
+-assumenosideeffects class android.util.Log { *; }
+-dontwarn com.google.errorprone.annotations.**
+-dontwarn javax.annotation.**
