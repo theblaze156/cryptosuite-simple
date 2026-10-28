@@ -7,3 +7,6 @@ keystore.properties
 *.keystore
 *.apk
 .idea/
+__pycache__/
+*.pyc
+config.json

@@ -81,3 +81,14 @@ Issues and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Re
 | ![Первый запуск](docs/screenshots/0_setup.png) | ![Баланс](docs/screenshots/1_balance.png) | ![Адреса](docs/screenshots/2_addresses.png) |
 | **Аудит** | **Статус** | **Настройки** |
 | ![Аудит](docs/screenshots/3_audit.png) | ![Статус](docs/screenshots/4_status.png) | ![Настройки](docs/screenshots/5_settings.png) |
+
+## Termux / CLI
+
+Есть консольный клиент для Termux (Android) или любого Linux: [`termux/`](termux/). Это клиент к вашему серверу, а не сервер:
+
+```sh
+pkg install python git
+cd cryptosuite-simple && git pull origin main && cd termux
+pip install -r requirements.txt
+python main.py setup && python main.py balance
+```
