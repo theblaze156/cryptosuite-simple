@@ -70,3 +70,14 @@ Issues and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Re
 ## License
 
 [MIT](LICENSE)
+
+## Скриншоты / Screenshots
+
+> Скриншоты сделаны на примерных данных, это не реальные кошельки. / Screenshots use example data, not real wallets.
+> Рендер: Robolectric (`ScreenshotTest`, тестовый source set, в APK не попадает) с локальным mock-сервером.
+
+| Первый запуск | Баланс | Адреса |
+|---|---|---|
+| ![Первый запуск](docs/screenshots/0_setup.png) | ![Баланс](docs/screenshots/1_balance.png) | ![Адреса](docs/screenshots/2_addresses.png) |
+| **Аудит** | **Статус** | **Настройки** |
+| ![Аудит](docs/screenshots/3_audit.png) | ![Статус](docs/screenshots/4_status.png) | ![Настройки](docs/screenshots/5_settings.png) |
