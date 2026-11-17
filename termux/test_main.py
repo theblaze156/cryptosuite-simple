@@ -54,9 +54,9 @@ class H(BaseHTTPRequestHandler):
 class T(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.srv = HTTPServer(("127.0.0.1", 0), H)
+        cls.srv = HTTPServer(("localhost", 0), H)
         threading.Thread(target=cls.srv.serve_forever, daemon=True).start()
-        cls.url = "http://127.0.0.1:%d" % cls.srv.server_port
+        cls.url = "http://localhost:%d" % cls.srv.server_port
 
     @classmethod
     def tearDownClass(cls): cls.srv.shutdown()

@@ -19,7 +19,7 @@ class ApiTest {
         s.shutdown()
     }
     @Test fun unreachable() {
-        try { Api("http://127.0.0.1:1", "", "").health(); fail() } catch (e: ApiError) { assertTrue(e.userMessage.isNotEmpty()) }
+        try { Api("http://localhost:1", "", "").health(); fail() } catch (e: ApiError) { assertTrue(e.userMessage.isNotEmpty()) }
     }
     @Test fun addPostsJson() {
         val s = MockWebServer(); s.start(); s.enqueue(MockResponse().setBody("""{"imported":1}"""))
