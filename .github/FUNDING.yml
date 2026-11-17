@@ -1,3 +1,14 @@
 # These are supported funding model platforms
+#
+# Official public donation details (also listed on the page below):
+#   Bitcoin (BTC): bc1qc68v8nve7f2hps4a5fy5de0hnrpk473dn0zpmt
+#   Solana (SOL, Solana network only): FgNgkNvUWsyd27hAtewMrG2m4gXLgwoSp1akCEmkSajG
+#   PayPal (last resort, if you have no crypto): lyboy.adress@icloud.com
+# GitHub's `custom` key accepts URLs only; `paypal` expects a paypal.me
+# username, which we do not publish. Use Send Money to the email above.
 
-custom: ["https://theblaze156.github.io/scam-radar-landing/donate.html"]
+custom:
+  - "https://theblaze156.github.io/scam-radar-landing/donate.html"
+  - "https://theblaze156.github.io/scam-radar-landing/donate.html#btc"
+  - "https://theblaze156.github.io/scam-radar-landing/donate.html#sol"
+  - "https://theblaze156.github.io/scam-radar-landing/donate.html#paypal"
